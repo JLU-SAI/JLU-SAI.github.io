@@ -1,26 +1,29 @@
-- title: Name
+- title: Yi Chang
   name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  subtitle: Dean
+  img: Yi_Chang.jpg
+  thumbnail: Yi_Chang.jpg
   alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  topic: Dean of School of AI, Jilin University
+  contact: yichang (at) acm.org; yichang (at) ieee.org; yichang@jlu.edu.cn
+  description: I am the Founding Dean of School of Artificial Intelligence, Jilin University, China. Before joining academia, I was a Technical Vice President at Huawei Research America, in charge of knowledge graph, question answering and vertical search projects. Before that, I was at Yahoo Labs/Research from 2006 to 2016 as a research director, and in charge of search relevance of Yahoo’s web search engine and vertical search engines. My Research Interests include information retrieval, data mining, machine learning, natural language processing, and artificial intelligence. I am elected as an ACM Distinguished Scientist in 2018, for my contributions to intelligent algorithms for search engines.
 
-- title: Name
+- title: Fausto Giunchiglia
   name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  subtitle: Professor
+  img: Fausto_Giunchiglia.jpg
+  thumbnail: Fausto_Giunchiglia.jpg
   alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  topic: Professor in the School of AI, Jilin University
+  contact: fausto@dit.unitn.it
+  description: Fausto Giunchiglia is a Professor in the Department of Computer Science and Information Engineering (DISI) at the University of Trento, Italy. His current research is focused on the integration of perception and knowledge representation as the basis for understanding how this generates the diversity of knowledge. His ultimate goal is to build machines which reason like humans. HE is an ECCAI Fellow. He was a President and a Trustee of IJCAI, an Associate Editor of JAIR, and a member of the Editorial Board of many journals, including the Journal of Data Semantics and the Journal of Autonomous Agents and Multi-Agent systems.
 
-- title: Name
+- title: Ying Xu
   name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+  subtitle: Professor
+  img: Ying_Xu.jpg
+  thumbnail: Ying_Xu.jpg
   alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  topic: Professor in the School of AI, Jilin University
+  contact: xyn@uga.edu
+  description: Ying Xu is a computational biologist and bioinformatician, and a chair professor, Regents-Georgia Research Alliance Eminent Scholar, in the Department of Biochemistry and Molecular Biology and the Institute of Bioinformatics at the University of Georgia, USA. His research is mainly focused on computational and systems biology relevant to human cancers and their early detection, microbial genomes and pathway encoding, and plant genomes and cell walls.  

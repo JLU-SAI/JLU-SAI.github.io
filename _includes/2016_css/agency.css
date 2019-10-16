@@ -337,9 +337,9 @@ fieldset[disabled] .btn-xl.active {
 header {
     height: 100vh;
     text-align: center;
-    color: #fff;
+    color: #C4E1FF;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/css/2017_style/img/background3.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -420,6 +420,11 @@ section h3.section-subheading {
     }
 }
 
+.post
+{
+  padding-bottom:30px
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -445,7 +450,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #3cb371;
+    background: #0072E3;
+    /* background: #3cb371; */
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
@@ -502,6 +508,170 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #speakers .speakers-item {
+        margin: 0 0 30px;
+    }
+}
+
+
+#news .news-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#news .news-item .news-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+#news .news-item .news-link .news-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: #0072E3;
+}
+
+#news .news-item .news-link .news-hover:hover {
+    opacity: 1;
+}
+
+#news .news-item .news-link .news-hover .news-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 100%;
+    color: #fff;
+}
+
+#news .news-item .news-link .news-hover .news-hover-content i {
+    margin-top: -12px;
+}
+
+#news .news-item .news-link .news-hover .news-hover-content h3,
+#news .news-item .news-link .news-hover .news-hover-content h4 {
+    margin: 0;
+}
+
+#news .news-item .news-caption {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    max-width: 3500px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#news .news-item .news-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+/*
+#news .news-item .news-caption p {
+    margin: 0;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 100%;
+    font-style: italic;
+}
+*/
+
+#news * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #news .news-item {
+        margin: 0 0 30px;
+    }
+}
+
+
+#talks .talks-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#talks .talks-item .talks-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#talks .talks-item .talks-link .talks-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: #0072E3;
+}
+
+#talks .talks-item .talks-link .talks-hover:hover {
+    opacity: 1;
+}
+
+#talks .talks-item .talks-link .talks-hover .talks-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 120%;
+    color: #fff;
+}
+
+#talks .talks-item .talks-link .talks-hover .talks-hover-content i {
+    margin-top: -12px;
+}
+
+#talks .talks-item .talks-link .talks-hover .talks-hover-content h3,
+#talks .talks-item .talks-link .talks-hover .talks-hover-content h4 {
+    margin: 0;
+}
+
+#talks .talks-item .talks-caption {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    max-width: 400px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#talks .talks-item .talks-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+/*
+#talks .talks-item .talks-caption p {
+    margin: 0;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 100%;
+    font-style: italic;
+}
+*/
+
+#talks * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #talks .talks-item {
         margin: 0 0 30px;
     }
 }

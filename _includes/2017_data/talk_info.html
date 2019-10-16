@@ -1,0 +1,38 @@
+ <!-- Portfolio Modals -->
+<style>
+.p1{font-size: 30px;}
+.p1{font-size: 20px;}
+</style>
+
+ {% for post in site.data.twenty_17.news %}
+    <div class="portfolio-modal modal fade" id="{{ post.name }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1>{{ post.title }}</h1>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/news/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <!-- <h3>{{ post.topic }}</h3>
+                            <h4>{{ post.contact }}</h4>
+                            <p class="p1">&emsp; {{ post.description }}</p>
+                            <p class="p1">&emsp; {{ post.body1 }}</p>
+                            <p class="p1">&emsp; {{ post.body2 }}</p>
+                            <p class="p1">&emsp; {{ post.body3 }}</p>
+                            <p class="p1">&emsp; {{ post.body4 }}</p>
+                            <p class="p1">&emsp; {{ post.body5 }}</p> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
